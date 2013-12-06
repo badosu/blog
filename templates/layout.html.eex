@@ -22,7 +22,7 @@
       <%= content %>
     </section>
     <footer>
-      Powered by <strong>Coil</strong>
+      Powered by <strong><a href="https://github.com/badosu/coil">Coil</a></strong>
     </footer>
   </body>
 </html>
