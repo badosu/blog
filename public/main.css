@@ -112,3 +112,16 @@ section header {
 }
 
 #articles .content { max-width: 45em }
+
+.content hr {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 1em;
+  color: #bbb;
+  border: none;
+}
+
+.content hr:before {
+  content: '\2022 \2022 \2022 \2022 \2022';
+}
