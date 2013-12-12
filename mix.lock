@@ -1,4 +1,4 @@
-[ "coil": {:git, "git://github.com/badosu/coil.git", "2a0d1b8d70ecdf533d69f5431bc3b60fe7bff157", []},
+[ "coil": {:git, "git://github.com/badosu/coil.git", "4f6254535d07c85da039eab86299f39373fe9724", []},
   "cowboy": {:git, "git://github.com/extend/cowboy.git", "eb4843a46b781f93030b623e2b1feb1898ba3da0", []},
   "cowlib": {:git, "git://github.com/extend/cowlib.git", "2f35af5b0a67f591dde5ae4305a9587988a37c0c", [{:ref, "0.1.0"}]},
   "ex_doc": {:git, "git://github.com/elixir-lang/ex_doc.git", "00698580275eb245de02dca0b3ae589ddb8e398b", []},
