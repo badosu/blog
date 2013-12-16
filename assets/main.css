@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
-  max-width: 680px;
+  max-width: 720px;
   padding: 0 20px;
 }
 
@@ -107,7 +107,7 @@ section header {
   clear: both;
 }
 
-.content p { padding-left: 1em }
+.content p, .content ul { padding-left: 1em }
 
 .date {
   font-style: italic;
