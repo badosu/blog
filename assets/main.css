@@ -28,17 +28,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
   max-width: 720px;
-  padding: 0 20px;
+  padding: 0 .8em;
 }
 
-body > section {
-  margin-top: 3em;
-  padding: 0 .5em;
-}
+body > section { margin-top: 3em; }
 
 body > header {
   margin-top: 1em;
-  padding-left: .5em;
   overflow: hidden;
 }
 
@@ -65,7 +61,6 @@ body > footer {
   color: #888;
   margin-top: 5em;
   margin-bottom: 2em;
-  padding-left: .5em;
 }
 
 body > footer a { text-decoration: none; }
@@ -80,8 +75,6 @@ code {
   font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
   padding: 0 .1em;
 }
-
-pre { padding: 1em }
 
 blockquote { font-style: italic }
 
@@ -107,11 +100,10 @@ section header {
   clear: both;
 }
 
-.content p, .content ul { padding-left: 1em }
-
 .date {
   font-style: italic;
   float: right;
+  padding-top: .3em;
 }
 
 #articles .content { max-width: 45em }
@@ -120,11 +112,21 @@ section header {
   margin: 1em 0 1em 0;
   text-align: center;
   letter-spacing: 3px;
-  font-size: 1em;
   color: #bbb;
   border: none;
 }
 
 .content hr:before {
   content: '\2022 \2022 \2022 \2022 \2022';
+}
+
+.content p, .content ul, pre { padding-left: 1em }
+
+body > footer, body > section, body > header { padding-left: .5em }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  .content p, pre { padding-left: .3em }
+  .content ul { padding-left: 1em }
+
+  body > footer, body > section, body > header { padding-left: 0 }
 }
