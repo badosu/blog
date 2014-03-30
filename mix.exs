@@ -3,7 +3,7 @@ defmodule Blog.Mixfile do
 
   def project do
     [ app: :blog, version: "0.1.0",
-      deps: [ {:coil, path: "../coil"} ] ]
+      deps: [ {:coil, github: "badosu/coil"} ] ]
   end
 
   def application, do: [ mod: { Blog, [] }, applications: [:coil] ]
